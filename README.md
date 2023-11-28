@@ -9,7 +9,7 @@ Terraform which is the leading(IAC) tool was used to build this infrastructure. 
     to get it up and running, a couple of these
     tools are listed below.
 
-i.  AWS account: This is very important as it 
+i.  An AWS account: This is very important as it 
     provides the cloud platform the resources to be 
     deployed would be created.
 
