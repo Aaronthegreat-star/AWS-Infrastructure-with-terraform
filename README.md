@@ -2,3 +2,29 @@ Terraform which is the leading(IAC) tool was used to build this infrastructure. 
 ![Alt text](demo-terraform-deployment.png)
 🔗  🛠 Skills:
     Terraform, bash scripting...
+
+🔗 Prerequisites:
+    If you are interested in replicating this 
+    project, there are some important tools
+    to get it up and running, a couple of these
+    tools are listed below.
+
+i.  AWS account: This is very important as it 
+    provides the cloud platform the resources to be 
+    deployed would be created.
+
+ii.  CLI: This is a text based interactive 
+    environment we use to communicate with the AWS
+    resources from the command line instead of 
+    using the console. our aws account is accesed 
+    here through our access key and secret access 
+    key. The AWS CLI must be installed before we
+    can carry out any interactive operation.
+
+iii. Terraform: This an open-source Infrastructure
+    as a code(IAC) implementaion. It enables the 
+    provision of Infrastructure Declaratively. This
+    has to be installed prior to creation of this 
+    project.
+
+
