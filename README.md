@@ -1,3 +1,2 @@
-# AWS-Infrastructure-with-terraform
-This architecture diagram was written in terraform, It describes an apache web page whose script is installed in series of ec2 instances placed in an auto scaling group which is also located within a private subnet that has an s3 bucket as a backend demonstration.
+Terraform which is the leading(IAC) tool was used to build this infrastructure, The project describes installation of an apache webserver on an ec2 instances residing in the private subent of a vpc. a shell script that installs the apache webserver on an ubuntu ami is written as the userdata to install the apache webserver at launch of the instances. a Demo s3 bucket was also attached as a backend which could serve various purpose from static website hoisting, storage of files as well as backup of data from the ec2 instances.
 ![Alt text](demo-terraform-deployment.png)
